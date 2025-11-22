@@ -99,7 +99,7 @@ function solve(model::MySimulatedAnnealingMinimumVariancePortfolioAllocationProb
                 f_best = current_f; # update best objective
             end
         end
-
+        # ChatGPT used to troubleshoot and check for errors
         # throw(ErrorException("Oooops! Simulated annealing logic not yet implemented!!"));
 
         # update KL -
